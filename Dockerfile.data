@@ -1,0 +1,4 @@
+FROM alpine:3.5
+RUN mkdir /src
+COPY README.md /src
+VOLUME ["/src"]
